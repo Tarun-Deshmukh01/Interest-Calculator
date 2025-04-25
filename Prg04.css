@@ -1,0 +1,50 @@
+.container{
+    width: 270px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 15px;
+    background: #000;
+    color: #FFF;
+    box-shadow: 0 0 10px #00F;
+
+
+}
+
+.container:hover{
+    box-shadow: 0 0 10px #F00;
+}
+
+.container h2{
+    text-align: center;
+    text-decoration: 1px underline wavy #c3c3c3;
+
+}
+
+.container input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.container output{
+    font-size: 18px;
+    color: yellow;
+
+}
+
+ 
+.container button{
+    margin: 20px;
+    width: 180px;
+    height: 35px;
+    background: #F00;
+    color: #FFF;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+} 
+
+.container button:hover{
+    background: #0F0;
+    cursor: pointer;
+}

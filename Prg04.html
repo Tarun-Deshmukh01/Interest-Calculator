@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate Page</title>
+    <link rel="stylesheet" href="Prg04.css">
+    <script src="Prg04.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Loan Interest Calculater</h2>
+        <label for="pamt">Principle amount</label><br>
+        <input type="number" id="pamt" autofocus>
+        <span>&#8377</span>
+        <label for="time">Time</label><br>
+        <input type="number" id="time" autofocus>
+        <span>Year</span>
+        <label for="time">Rate of Interest</label><br>
+        <input type="number" id="roi" autofocus>
+        <span>%</span>
+        <div align="center">
+            <button type="button" onclick="calcAmount()">Calc Interest</button>
+        </div>
+        <div align="center">
+            <output id="intAmt"></output><br>
+            <output id="totAmt"></output>
+        </div>
+    </div>
+</body>
+
+</html>
