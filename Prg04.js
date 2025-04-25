@@ -12,8 +12,7 @@ function calcAmount(){
     ia = p*r*t/100;
     ta = p+ ia
 
-    //displaying
+    //Display the result
     intAmt.innerHTML="Interest Amount &nbsp; &#8377;"+ia;
     totAmt.innerHTML="Total Amount &nbsp; &#8377;"+ta;
-
 }
